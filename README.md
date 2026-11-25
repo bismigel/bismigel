@@ -1,6 +1,5 @@
-Senior observability & platform engineer in Toronto. At work I run Datadog for application teams and built a
-self-service monitoring portal that cut new synthetic-test turnaround from 3 days to 1 hour. At home I run a
-three-node Kubernetes cluster where fenced AI agents diagnose alerts. Aspiring brackish-water prawn farmer.
+Senior observability & platform engineer in Toronto. I run a three-node Kubernetes cluster at home, where fenced
+AI agents diagnose alerts. Aspiring brackish-water prawn farmer.
 
 **[Cluster desired state](https://github.com/bismigel/bakuran-gitops)** — about 50 ArgoCD Applications on k3s. Every
 one of the 81 alert rules has a runbook entry generated from the rules; CI checks the manifests, image digests,
