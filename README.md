@@ -1,5 +1,5 @@
 Senior observability & platform engineer in Toronto. I run a three-node Kubernetes cluster at home, where fenced
-AI agents diagnose alerts. Aspiring brackish-water prawn farmer.
+AI agents diagnose alerts. Brackish-water prawn farmer.
 
 **[Cluster desired state](https://github.com/bismigel/bakuran-gitops)** — about 50 ArgoCD Applications on k3s. Every
 one of the 81 alert rules has a runbook entry generated from the rules; CI checks the manifests, image digests,
