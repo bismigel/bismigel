@@ -13,9 +13,5 @@ Ansible, and a staging VM where network changes are rehearsed before production.
 implement settled specs in their own worktree; every result is reviewed and proven on the exact code before it lands.
 44 measured runs: 121M tokens, $3.08 in total.
 
-**[Datadog docs fix](https://github.com/DataDog/documentation/pull/41325)** — corrected the HashiCorp Vault
-`implicit_auth` reference after reproducing an Agent 7.85.0 startup failure; approved by the Datadog docs team.
-The integration behind it: [Helm chart](https://github.com/bismigel/datadog-vault-k8s-template) ·
-[Docker/Podman template](https://github.com/bismigel/dd-agent-hashi-secret-template).
 
 [bismigel.dev](https://bismigel.dev) · work@bismigel.dev
