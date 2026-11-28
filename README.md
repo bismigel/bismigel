@@ -14,4 +14,10 @@ implement settled specs in their own worktree; every result is reviewed and prov
 44 measured runs: 121M tokens, $3.08 in total.
 
 
+**[o11y-alert-tuner](https://github.com/bismigel/o11y-alert-tuner)** — a small local model plus guard rails that triage
+Prometheus alerting rules (flapping, noisy, dead, healthy) and propose patches for review. On an independent simulator it
+classifies 96.7% correctly against 47.9% for the untouched base model; on my cluster, 16 of 21 real alerts against 1 for
+the base model and 10 for a large API model. [Write-up](https://bismigel.dev/posts/alert-triage-with-a-small-local-model/) ·
+[model](https://huggingface.co/bismigel/o11y-alert-tuner-4b).
+
 [bismigel.dev](https://bismigel.dev) · work@bismigel.dev
