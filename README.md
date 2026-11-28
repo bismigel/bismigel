@@ -1,7 +1,7 @@
 Senior observability & platform engineer in Toronto. I run a three-node Kubernetes cluster at home, where fenced
 AI agents diagnose alerts.
 
-**[Cluster desired state](https://github.com/bismigel/bakuran-gitops)** — about 50 ArgoCD Applications on k3s. Every
+**[Cluster Gitops](https://github.com/bismigel/bakuran-gitops)** — about 50 ArgoCD Applications on k3s. Every
 one of the 81 alert rules has a runbook entry generated from the rules; CI checks the manifests, image digests,
 alert-to-runbook links and image scans, and a CVE baseline fails on anything new. Alert agents talk A2A and are held
 by read-only tools, RBAC and an admission policy.
